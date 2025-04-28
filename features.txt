@@ -1,0 +1,19 @@
+Sign up: implemented on the signup page (signup.php)
+
+User login: implemented on the login page (login.php)
+
+Excursion list: implemented on the excursionlist page (excursionlist.php)
+
+Excursion details and booking: Displays Excursion details, implemented on the excursiondetails page (excursiondetails.php)
+
+Database connection: Connects to database, implemented on the in the header, setsession file and other pages,(db_conn.php)
+
+ticket display: Displays tickets, implemented on the ticket page (ticketing.php)
+
+resticting access : prevents authorised access, implemented in the booking, ticketing, my profile, and excursion details pages(restrictedaccess.php)
+
+security report : implemented in the footer and index page(footer.php and index.php)
+
+set Session : Starts session and saves session data implement in the header.php file (setSession)
+
+kill session : Log out and kills then session (logout.php)

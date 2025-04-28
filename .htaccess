@@ -1,0 +1,14 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /
+
+# Redirect requests for assets to the correct location
+RewriteRule ^assets/(.*)$ assets/$1 [L]
+
+# Redirect requests for content to the correct location
+RewriteRule ^content/(.*)$ content/$1 [L]
+
+# Redirect the root to the index.php file
+RewriteRule ^$ index.php [L] 
