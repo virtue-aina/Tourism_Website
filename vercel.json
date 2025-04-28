@@ -1,8 +1,8 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.6.0"
+        "api/index.js": {
+            "runtime": "nodejs18.x"
         }
     },
     "routes": [
@@ -12,7 +12,13 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/api/index.js"
+        }
+    ],
+    "builds": [
+        {
+            "src": "api/index.js",
+            "use": "@vercel/node"
         }
     ]
 } 

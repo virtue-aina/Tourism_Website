@@ -1,0 +1,10 @@
+{
+  "name": "tourism-website",
+  "version": "1.0.0",
+  "description": "Tourism website with Node.js API",
+  "main": "api/index.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "node api/index.js"
+  }
+} 
